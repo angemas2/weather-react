@@ -1,0 +1,153 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.bgimg {
+  position: fixed;
+  min-width: 100%;
+  opacity: 100%;
+}
+
+.container {
+  position: relative;
+  color: white;
+  padding: 100px;
+  font-family: "Nunito", sans-serif;
+}
+
+.container h1 {
+  font-weight: 700;
+}
+
+.date {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.list {
+  list-style: none;
+  padding: 0px;
+}
+
+.details {
+  margin-top: 5%;
+  margin-bottom: 20px;
+  font-size: 12px;
+  text-align: left;
+  background: #436c7e;
+  opacity: 70%;
+  padding: 40px 30px 20px 30px;
+  border-radius: 30px;
+  max-width: 950px;
+}
+
+.city,
+.currentTemp {
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 60px;
+}
+
+.emoji {
+  padding: 0;
+  width: 100%;
+  position: relative;
+  top: -20px;
+}
+
+.active {
+  text-decoration: none;
+  cursor: default;
+  font-weight: bold;
+}
+
+.footer {
+  font-weight: bold;
+  font-size: 12px;
+  position: relative;
+  left: 22px;
+}
+
+.mintemp {
+  opacity: 40%;
+}
+
+.maxtemp {
+  font-weight: bold;
+}
+
+.weatherforecast {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+#github {
+  color: white;
+  margin-left: 5px;
+}
+
+#units a {
+  color: white;
+}
+
+#units {
+  font-size: 12px;
+  position: relative;
+  top: -25px;
+  left: -8px;
+  font-weight: 300;
+}
+
+#submit-city {
+  border-radius: 20px;
+  padding: 10px;
+  width: 100px;
+  margin-left: 15px;
+  background: white;
+  color: #2d9cb8;
+  border: solid 1px #2d9cb8;
+  font-weight: bold;
+  transition: all ease-in-out 150ms;
+}
+
+#submit-city:hover {
+  color: white;
+  background: #a96d58;
+}
+
+#description {
+  font-size: 14px;
+  font-weight: lighter;
+  text-transform: capitalize;
+}
+
+#user-city {
+  margin-top: 30px;
+  color: #2a283b;
+  opacity: 30%;
+  width: 50%;
+  padding: 10px;
+  border-radius: 20px;
+  border: solid 1px #2a283b;
+}
+
+#day1 {
+  opacity: 60%;
+}
+
+#geoloc {
+  border: 1px solid #2d9cb8;
+  border-radius: 100%;
+  padding: 10px 15px;
+  color: white;
+  background: #4b8295;
+  margin-left: 8px;
+}
+
+#geoloc:hover {
+  color: #4b8295;
+  background: white;
+}
